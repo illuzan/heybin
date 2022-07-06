@@ -141,7 +141,7 @@ export default function Index() {
           hidden={state === 'success'}
         >
           <textarea
-            className='w-full h-full px-6 py-4 font-bold tracking-wide bg-white outline-none resize-none rounded-xl disabled:opacity-75'
+            className='w-full h-full px-6 py-4 font-semibold tracking-wide bg-white outline-none resize-none rounded-xl disabled:opacity-75'
             placeholder='> Paste, save, share! (Pasting just a URL will shorten it!)'
             required={true}
             name='text-area'
@@ -150,7 +150,7 @@ export default function Index() {
         </Form>
         <div
           hidden={state !== 'success'}
-          className='w-full h-full px-6 py-4 font-bold tracking-wide bg-white outline-none resize-none rounded-xl disabled:opacity-75'
+          className='w-full h-full px-6 py-4 font-semibold tracking-wide bg-white outline-none resize-none rounded-xl disabled:opacity-75'
         >
           {}
           <span>

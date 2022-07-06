@@ -26,7 +26,7 @@ export default function Code() {
     <>
       <Header />
       <main className='h-full bg-white rounded-xl overflow-clip'>
-        <p className='h-full px-6 py-4 overflow-y-auto font-bold tracking-wide whitespace-pre-wrap'>
+        <p className='h-full px-6 py-4 overflow-y-auto font-semibold tracking-wide whitespace-pre-wrap'>
           {data.data}
         </p>
       </main>
