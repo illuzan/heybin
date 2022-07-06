@@ -18,7 +18,7 @@ export const meta: MetaFunction = () => {
     'og:type': 'website',
     'og:title': 'Heybin',
     'og:url': 'https://www.heyb.in/',
-    'og:image': '/heybin.webp',
+    'og:image': 'https://heyb.in/heybin.webp',
     'og:description': 'A lightweight pastebin and URL shortener',
   }
 }
