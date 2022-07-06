@@ -40,7 +40,12 @@ export const Header = ({
         <span className='text-[#008FF8]'>&lt;Hey</span>bin/&gt;
       </a>
       {showSaveButton && (
-        <button form='textareaForm' className='text-base' type='submit'>
+        <button
+          form='textareaForm'
+          className='text-base'
+          type='submit'
+          aria-label='Save button'
+        >
           {' '}
           <svg
             className='w-6 h-6'
@@ -157,7 +162,7 @@ export default function Index() {
             Your shortened url is:{' '}
             <a
               className='text-[#008FF8] hover:underline'
-              href={actionData?.slug}
+              href={actionData?.slug ? `/${actionData.slug}` : '/'}
             >
               {actionData?.data}
             </a>
