@@ -5,5 +5,7 @@ node_modules
 /functions/\[\[path\]\].js.map
 /public/build
 .env
+.DS_Store
+/.mf
 
 /app/tailwind.css
